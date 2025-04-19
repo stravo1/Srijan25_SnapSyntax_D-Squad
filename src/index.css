@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+body {
+  font-family: 'Space Grotesk', monospace;
+}
+.glowing-circle {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0 0 50px rgba(128, 0, 128, 0.7), 0 0 100px rgba(128, 0, 128, 0.5), 0 0 150px rgba(128, 0, 128, 0.3);
+}
