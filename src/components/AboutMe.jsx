@@ -1,5 +1,7 @@
 import { MoveRight } from "lucide-react";
 import Laptop from "../assets/laptop.jpg";
+import { Laptop2 } from "lucide-react";
+import { Atom } from "lucide-react";
 
 const AboutMe = () => {
     return (
@@ -14,13 +16,9 @@ const AboutMe = () => {
                     </div>
                 </h2>
             </div>
-            <div className="absolute bottom-12 left-12 z-0">
+            <div className="absolute top-[50%] left-[15%] z-0">
                 <div className="image-laptop">
-                    <img
-                        src={Laptop}
-                        alt="Laptop"
-                        className="w-[60vh] h-[60vh]"
-                    />
+                <Atom size={200} />
                 </div>
             </div>
             <div className="w-1/3 ml-[50%] mt-[15%] p-4 text-lg">
