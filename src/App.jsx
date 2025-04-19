@@ -20,6 +20,10 @@ function App() {
                 <MySkills />
                 <Projects />
                 <ContactPage />
+                <hr className="mx-24 text-gray-500" />
+                <footer className="mt-12 flex w-full justify-center items-center text-gray-500">
+                  &copy; Copyright, All rights reserved.
+                </footer>
             </div>
         </>
     );

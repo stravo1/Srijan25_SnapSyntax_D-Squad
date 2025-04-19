@@ -32,14 +32,14 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div
             key={project.id}
-            className={`w-full md:w-3/4 lg:w-1/2 mb-8 ${
+            className={`w-1/2 mb-8 ${
               index % 2 === 0 ? 'md:self-start' : 'md:self-end'
             }`}
           >
             <div className="relative">
               <img
                 src={index % 2 ? pic1 : pic2}
-                className="w-full h-64 object-cover rounded-lg shadow-md"
+                className="w-full h-72 object-cover rounded-lg shadow-md"
               />
               <div className="absolute top-0 -left-12 p-4 text-4xl font-bold text-white">
                 Project {project.projectNumber}
